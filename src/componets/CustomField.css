@@ -1,0 +1,146 @@
+input[type="text"] {
+    border: none;
+    /* Optionally, you can add additional styling */
+    /* For example: */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Transparent background */
+    padding: 8px 12px; /* Add padding for spacing */
+    font-size: 16px; /* Set font size */
+    border-radius: 4px; /* Add border radius for rounded corners */
+  }
+
+  @font-face {
+    font-family: 'Zoho_Puvi_SemiBold';
+    src: url('../public/Zoho_Puvi_Semibold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Zoho_Puvi_Regular';
+    src: url('../public/Zoho_Puvi_Regular.ttf') format('truetype');
+  }
+
+  #parentDiv{
+    width: 900px;
+  }
+
+  #title-expandable-textarea{
+    
+
+    width: 95%;
+    min-height: 20px; /* Set a minimum height */
+    resize: none; /* Prevent resizing */
+   height: 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+     /* border: none; */
+    /* Optionally, you can add additional styling */
+    /* For example: */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Transparent background */
+    padding: 4px 12px; /* Add padding for spacing */
+    font-size: 16px; /* Set font size */
+    border-radius: 4px;
+  }
+  #expandable-textarea {
+    width: 95%;
+    min-height: 30px; /* Set a minimum height */
+    resize: none; /* Prevent resizing */
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+     /* border: none; */
+    /* Optionally, you can add additional styling */
+    /* For example: */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Transparent background */
+    padding: 4px 12px; /* Add padding for spacing */
+    font-size: 16px; /* Set font size */
+    border-radius: 4px;
+  }
+  #expandable-textarea:focus {
+    border: none;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  .addfocus{
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    height:200px;
+    border-radius: 5px;
+  }
+  
+  button:disabled,
+button[disabled]{
+ 
+  background-color: #91cbff;
+  color:white;
+}
+  /* .expanded {
+    height: auto;
+  } */
+  
+  /* .flex-container {
+    display: flex;
+    
+  } */
+  
+  
+  /* .column1 {
+    float: left;
+    padding: 5px;
+    height: 300px; 
+  }
+  .column2 {
+    float: left;
+    padding: 10px;
+    height: 300px; 
+  } */
+  
+  /* .left {
+    width: 50%;
+  }
+  
+  .right {
+    width: 50%;
+  } */
+  /* .column1{
+    display: grid;
+    grid-template-columns: auto auto;
+  } */
+
+    button{
+      padding: 0.4em 1.2em !important;
+    }
+  .save-button1{
+    background-color:#0279FF;
+    border: none;
+    color:white;
+    height: 30px;
+    
+     
+  }
+  .cancel-button{
+    background-color: #EAEEF5;
+    border: 1px solid rgb(202, 196, 196);
+    border-radius: 4px;
+    margin: 5px;
+    height: 30px;
+    text-align: center;
+  }
+  .flex-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin: 5px;
+    /* align-content: space-evenly; */
+  }
+  .attachment-icon{
+    padding: 15px 5px 5px 0px
+  }
